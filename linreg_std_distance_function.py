@@ -158,4 +158,5 @@ def epsilon(start_string, symbol, periods=100, first=False, upper_deviation=1, l
     return array
 
 
-epsilon('2021-2-25', 'AAPL', 100, first=False, upper_deviation=1, lower_deviation=1, second_up=2, second_low=2, plot=True, second=True, legend=False, print_array=True, summary=False)
+# sample function call below, can be used as a template if you wish, just uncomment it
+#epsilon('2021-2-25', 'AAPL', 100, first=False, upper_deviation=1, lower_deviation=1, second_up=2, second_low=2, plot=True, second=True, legend=False, print_array=True, summary=False)
